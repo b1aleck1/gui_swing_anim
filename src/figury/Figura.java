@@ -1,6 +1,3 @@
-/**
- * 
- */
 package figury;
 
 import java.awt.Color;
@@ -17,7 +14,7 @@ import java.util.Random;
  * @author tb
  *
  */
-public abstract class Figura implements Runnable, ActionListener/*, Shape*/ {
+public class Figura implements Runnable, ActionListener/*, Shape*/ {
 
 	// wspolny bufor
 	protected Graphics2D buffer;

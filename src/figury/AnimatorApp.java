@@ -62,7 +62,7 @@ public class AnimatorApp extends JFrame {
 		JButton btnAdd = new JButton("Add");
 		btnAdd.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				kanwa.addFig();
+				kanwa.addFigura();
 			}
 		});
 		btnAdd.setBounds(10, 239, 80, 23);
